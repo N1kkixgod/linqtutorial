@@ -12,13 +12,14 @@ namespace ConsoleApp3
         {
             students.Add(new Student { First = "Nikita", Last = "Smirnov", ID = 123, Scores = new List<int> { 100, 100, 100, 70 } });
 
-            IEnumerable<Student> studentQuery =
-                from student in students
-                where student.Scores[0] > 90 && student.Scores[3] < 80
-                orderby student.Scores[0] descending
-                select student;
-
             //Упорядочение результатов
+            //IEnumerable<Student> studentQuery =
+                //from student in students
+                //where student.Scores[0] > 90 && student.Scores[3] < 80
+                //orderby student.Scores[0] descending
+                //select student;
+
+            
             // foreach (Student student in studentQuery)
             // {
             //    Console.WriteLine("{0}, {1} {2}", student.Last, student.First, student.Scores[0]);
