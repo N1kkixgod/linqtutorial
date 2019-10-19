@@ -19,7 +19,6 @@ namespace ConsoleApp3
                 //orderby student.Scores[0] descending
                 //select student;
 
-            
             // foreach (Student student in studentQuery)
             // {
             //    Console.WriteLine("{0}, {1} {2}", student.Last, student.First, student.Scores[0]);
